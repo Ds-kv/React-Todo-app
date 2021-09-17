@@ -1,0 +1,148 @@
+body{
+text-align: center;
+}
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.todo-item {
+wrap: break-all;
+overflow-wrap: break-all;
+word-wrap : break-all;
+white-space: normal !important;
+margin: 10px;
+cursor: pointer;
+margin-left: 30%;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	display: flex;
+	height: auto;
+width: auto;
+max-width: 100%;
+	justify-content: space-between;
+	border: 0.1px;
+	border-color: gray;
+	list-style: none;
+	border-style: solid;
+	font-size: 14px;
+	font-weight: 500;
+	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+padding: 1px;
+
+}
+
+.todo-item:active{
+background: #eeeeee;
+}
+
+.Delete {
+	color: rgb(255, 0, 0);
+	background-color: rgb(255, 255, 255, 0);
+	border: none;
+	font-weight: 600;
+	margin-bottom: 2px;
+	height: 22px;
+	width: 22px;
+                cursor: pointer;
+}
+
+body {
+	background-image: url("https://picsum.photos/seed/1920/1080");
+	background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+	/*background: linear-gradient(90deg, darkblue, rgb(52, 0, 100));*/
+}
+
+.Done {
+	background-color: rgba(255, 255, 255, 0);
+	border: white;
+	font-weight: 600;
+	color: rgb(0, 255, 0);
+	height: 22px;
+	border: none;
+                cursor: pointer;
+}
+
+.Done:hover {
+	background-color: rgb(0, 255, 0);
+	color: white;
+	height: 22px;
+	border: none;
+}
+
+.Delete:hover {
+	color: white;
+	background-color: rgb(255, 0, 0);
+	border: none;
+	font-weight: 600;
+	margin-bottom: 2px;
+	height: 22px;
+	width: 22px;
+}
+
+.todo-input {
+	border: none;
+	border-radius: 0;
+	height: 0.75cm;
+	width: 9cm;
+}
+.Add {
+	border: none;
+	border-radius: 0;
+	background-color: white;
+	height: 0.8cm;
+	width: 1cm;
+	margin-top: 0.5cm;
+}
+
+
+.Add:hover {
+	background-color: yellow;
+}
+
+header {
+	font-size: 30px;
+	color: white;
+	font-weight: 600;
+}
+
+.completed {
+   color: gray;
+   text-decoration: line-through;
+}
+
+ul{
+overflow-wrap: normal;
+overflow-wrap: break-word;
+overflow-wrap: anywhere;
+width: auto;
+max-width: 1000px;
+padding-left: 15%;
+padding-right: 30%;
+}
+
+::-webkit-scrollbar {
+  position: absolute;
+  left: 50%;
+  width: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffff00;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #eeee00;
+  cursor: pointer;
+}
